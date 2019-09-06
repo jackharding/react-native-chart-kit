@@ -219,25 +219,6 @@ class AbstractChart extends Component {
                         stopOpacity="0"
                     />
                 </LinearGradient>
-
-                <LinearGradient
-                    id="bezierGradient"
-                    x1={0}
-                    y1={0}
-                    x2={0}
-                    y2={height}
-                >
-                    <Stop
-                        offset="0"
-                        stopColor={this.props.chartConfig.pathGradientFrom}
-                        stopOpacity={0.8}
-                    />
-                    <Stop
-                        offset="1"
-                        stopColor={this.props.chartConfig.pathGradientTo}
-                        stopOpacity={0}
-                    />
-                </LinearGradient>
             </Defs>
         )
     }
