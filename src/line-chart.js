@@ -180,7 +180,7 @@ class LineChart extends AbstractChart {
         <Path
           key={index}
           d={result}
-          fill="none"
+          fill={dataset.gradientStart ? 'url(#bezierGradient)' : 'none'}
           stroke={this.getColor(dataset, 0.2)}
           strokeWidth={this.getStrokeWidth(dataset)}
         />
