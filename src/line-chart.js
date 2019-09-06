@@ -99,7 +99,7 @@ class LineChart extends AbstractChart {
                 (dataset.data.length - 1)},${(height / 4) * 3 +
               paddingTop} ${paddingRight},${(height / 4) * 3 + paddingTop}`
           }
-          fill="url(#fillShadowGradient)"
+          fill="#f00"
           strokeWidth={0}
         />
       )
